@@ -3,8 +3,8 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // Cài đặt kích thước canvas
-canvas.width = 1000;
-canvas.height = 800;
+canvas.width = 400;
+canvas.height = 200;
 
 // Định nghĩa đối tượng rổ
 const basket = {
