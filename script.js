@@ -3,23 +3,23 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // Cài đặt kích thước canvas
-canvas.width = 600;
-canvas.height = 400;
+canvas.width = 1000;
+canvas.height = 800;
 
 // Định nghĩa đối tượng rổ
 const basket = {
-  width: 100,
-  height: 20,
+  width: 120,
+  height: 30,
   x: canvas.width / 2 - 50,
   speed: 8
 };
 
 // Định nghĩa đối tượng bóng
 const ball = {
-  radius: 10,
+  radius: 20,
   x: Math.random() * canvas.width,
   y: -10,
-  speed: 3,
+  speed: 15,
   dx: Math.random() * 2 - 1, // Di chuyển ngẫu nhiên theo hướng X
   dy: 3 // Di chuyển xuống
 };
